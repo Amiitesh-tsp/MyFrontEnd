@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #11111b;
+    margin: 0;
+    padding: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: #cba6f7;
+    font-family: iosevka;
+    font-weight: 1000;
+}
+
+.todo-container {
+    max-width: 500px;
+    margin: auto;
+    background-color: #313244;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border: 1px solid #cba6f7;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.todo-list li:last-child {
+    border-bottom: none;
+}
+
+.todo-list label {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.todo-input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #181825;
+    border: 1px solid #74c7ec;
+    color: pink;
+}
+
+.add-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #89b4fa;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #b4befe;
+}
+
+.remove-button {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.catppuccin {
+    font-size: 30px;
+    font-weight: 900;
+    color: #f5c2e7;
+}
